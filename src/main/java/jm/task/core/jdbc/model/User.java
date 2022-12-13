@@ -62,7 +62,7 @@ public class User {
 
     @Override
     public String toString() {
-        return "Person: id= " + id + ", name = " + name + ", lastName = " + lastName
+        return "User: id= " + id + ", name = " + name + ", lastName = " + lastName
                 + ", age = " + age;
     }
 }

@@ -13,7 +13,7 @@ public class Main {
         UserServiceImpl userService = new UserServiceImpl();
         userService.dropUsersTable();
         userService.createUsersTable();
-        userService.saveUser("Ivan","I", (byte) 31);
+        userService.saveUser("Andre","A", (byte) 31);
         userService.saveUser("Jon","J", (byte) 1);
         userService.saveUser("Gosha","G", (byte) 22);
         userService.saveUser("Dimon","Ty-py-py-py-py-py", (byte) 127);
